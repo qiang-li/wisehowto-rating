@@ -5,8 +5,6 @@
  * 运行：./vendor/bin/phpunit tests/test-rating-db.php
  */
 
-require_once dirname( __DIR__ ) . '/includes/class-rating-db.php';
-
 use PHPUnit\Framework\TestCase;
 use Brain\Monkey;
 

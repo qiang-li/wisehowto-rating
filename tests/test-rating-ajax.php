@@ -5,9 +5,6 @@
  * 运行：./vendor/bin/phpunit tests/test-rating-ajax.php
  */
 
-require_once dirname( __DIR__ ) . '/includes/class-rating-db.php';
-require_once dirname( __DIR__ ) . '/includes/class-rating-ajax.php';
-
 use PHPUnit\Framework\TestCase;
 use Brain\Monkey;
 use Brain\Monkey\Functions;
