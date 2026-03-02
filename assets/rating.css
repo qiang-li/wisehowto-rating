@@ -1,0 +1,94 @@
+/* WiseHowTo Rating Widget — 样式 */
+
+.whtr-widget {
+    font-family: inherit;
+    margin: 1.5em 0;
+}
+
+/* ── 平均分展示区 ── */
+.whtr-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+    font-size: 1rem;
+    color: #333;
+}
+
+.whtr-avg {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+}
+
+.whtr-total {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* ── 静态星星 ── */
+.whtr-stars-display .whtr-star-filled {
+    color: #f5a623;
+    font-size: 1.2rem;
+}
+
+.whtr-stars-display .whtr-star-empty {
+    color: #ddd;
+    font-size: 1.2rem;
+}
+
+/* ── 交互评分区 ── */
+.whtr-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+.whtr-label {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.whtr-stars-interactive {
+    display: flex;
+    gap: 0.2em;
+}
+
+.whtr-star {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #ddd;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.15s ease, transform 0.1s ease;
+}
+
+.whtr-star:hover,
+.whtr-star.whtr-star-hover {
+    color: #f5a623;
+    transform: scale( 1.15 );
+}
+
+.whtr-star:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* ── 反馈文字 ── */
+.whtr-feedback {
+    margin: 0;
+    font-size: 0.875rem;
+    min-height: 1.4em;
+}
+
+.whtr-feedback.whtr-success {
+    color: #2e7d32;
+}
+
+.whtr-feedback.whtr-error {
+    color: #c62828;
+}
